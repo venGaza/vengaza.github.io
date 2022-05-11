@@ -16,8 +16,13 @@ publishdir= "./docs"
     weight = 1
 [[menu.main]]
     name = "Blog"
-    url = "#"
+    url = "https://medium.com/@gazaven"
     pre = "<i class='now-ui-icons objects_planet'></i>"
+    weight = 2
+[[menu.main]]
+    name = "Credly"
+    url = "https://www.credly.com/users/dustin-jones.b550b406/badges"
+    pre = "<i class='now-ui-icons files_paper'></i>"
     weight = 2
 [[menu.main]]
     name = "LinkedIn"
@@ -38,8 +43,13 @@ publishdir= "./docs"
     weight = 1
 [[menu.footer]]
     identifier = "Blog"
-    url = "#"
+    url = "https://medium.com/@gazaven"
     pre = "<i class='now-ui-icons objects_planet'></i>"
+    weight = 2
+[[menu.footer]]
+    identifier = "Credly"
+    url = "https://www.credly.com/users/dustin-jones.b550b406/badges"
+    pre = "<i class='now-ui-icons files_paper'></i>"
     weight = 2
 [[menu.footer]]
     identifier = "linkedin"
@@ -57,10 +67,9 @@ publishdir= "./docs"
     url = "#"
     weight = 5
 
-
 [params]
     background = ""
-    tint = "red"
+    tint = "black"
     custom_css = ["css/highlight.min.css"]
     custom_js = []
     date_format = "Mon, Jan 2, 2006"
