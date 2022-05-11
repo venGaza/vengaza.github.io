@@ -1,0 +1,72 @@
+theme = "hugo-now-ui"
+baseurl = "https://vengaza.github.io"
+languageCode = "en-us"
+title = "Portfolio"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+#enableGitInfo = false
+
+
+[[menu.main]]
+    name = "Projects"
+    url = "https://vengaza.github.io/projects"
+    pre = "<i class='now-ui-icons objects_spaceship'></i>"
+    weight = 1
+[[menu.main]]
+    name = "Blog"
+    url = "#"
+    pre = "<i class='now-ui-icons objects_planet'></i>"
+    weight = 2
+[[menu.main]]
+    name = "LinkedIn"
+    pre = "<i class='fa fa-linkedin'></i>"
+    url = "https://linkedin.com/in/jonesdusty"
+    weight = 3
+[[menu.main]]
+    name = "GitHub"
+    pre = "<i class='fa fa-github'></i>"
+    url = "https://github.com/vengaza"
+    weight = 3
+   
+
+[[menu.footer]]
+    identifier = "Projects"
+    url = "https://vengaza.github.io/projects"
+    pre = "<i class='now-ui-icons objects_spaceship'></i>"
+    weight = 1
+[[menu.footer]]
+    identifier = "Blog"
+    url = "#"
+    pre = "<i class='now-ui-icons objects_planet'></i>"
+    weight = 2
+[[menu.footer]]
+    identifier = "linkedin"
+    pre = "<i class='fa fa-linkedin'></i>"
+    url = "https://linkedin.com/in/jonesdusty"
+    weight = 3
+[[menu.footer]]
+    identifier = "github"
+    pre = "<i class='fa fa-github'></i>"
+    url = "https://github.com/vengaza"
+    weight = 4
+[[menu.footer]]
+    identifier = "copyright"
+    name = "Copyright © 2022 Dustin Jones."
+    url = "#"
+    weight = 5
+
+
+[params]
+    background = ""
+    tint = "red"
+    custom_css = ["css/highlight.min.css"]
+    custom_js = []
+    date_format = "Mon, Jan 2, 2006"
+    description = "A website built through Hugo and blogdown."
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.10.0"
+    highlightCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
